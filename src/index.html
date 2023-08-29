@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@800&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="/dist/output.css">
+
+</head>
+<body class="flex h-screen justify-center items-center bg-gray-900/90">
+    
+    <div class="flex flex-col rounded-xl w-96 bg-gray-700 items-center p-10 gap-6 relative">
+        <p id="adviseNum" class="text-emerald-400 font-Manrope text-xs tracking-widest font-medium">ADVICE #117</p>
+        <h1 id="adviseText" class="text-gray-200 font-Manrope text-2xl text-center font-medium">"It is easy to situp and take notice, whats difficult is getting up and taking action."</h1>
+        <div class="flex gap-10">
+        <hr class="w-32 border-spacing-1 border-slate-400"/>
+        <hr class="w-32 border-spacing-1 border-slate-400"/>
+        </div>
+        <img class="rounded-full bg-emerald-400 p-4 absolute -bottom-8 cursor-pointer" src="./assets/icon-dice.svg" onclick="getAdvise()" alt="">
+    </div>
+    
+<script src="advise.js"></script>
+
+</body>
+</html>
